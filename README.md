@@ -65,7 +65,6 @@ Install the *Live Server* extension → right-click `index.html` → **Open with
 
 Then open **http://localhost:3000** (or the port your server prints) and click **Open a War Room!**.
 
-**Requirements:** a modern browser. Node 18+ is only needed for Option A.
 
 ---
 
