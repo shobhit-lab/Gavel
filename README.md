@@ -6,7 +6,7 @@
 > Claims are verified in a sandbox, cross-examined, and escalated to a human, who has the final say. The ruling is then recorded as an ADR.
 
 🔗 **Live demo:** <!-- paste your deployed link below -->
-**[https://your-deployed-link-here](https://your-deployed-link-here)**
+**https://gavel-weld.vercel.app/**
 
 ---
 
@@ -55,18 +55,12 @@ It's a **100% static site**: no build step, no backend, no API keys, no environm
 
 Pick **any one** of these:
 
-**Option A: Node (recommended)**
-```bash
-unzip RUN_warroom.zip -d gavel && cd gavel
-npm start            # same as: npx serve .
-```
-
-**Option B: Python (nothing to install)**
+**Option A: Python (nothing to install)**
 ```bash
 python3 -m http.server 3000
 ```
 
-**Option C: VS Code**
+**Option B: VS Code**
 Install the *Live Server* extension → right-click `index.html` → **Open with Live Server**.
 
 Then open **http://localhost:3000** (or the port your server prints) and click **Open a War Room!**.
